@@ -5,7 +5,24 @@ A [Laravel Zero](https://laravel-zero.com/) CLI tool to extract a column with HT
 
 ### Setup
 
-At root folder create `.env` copying `.env.example`. Open the new `.env` file and replace dumb values with your database connection configuration. See more at [Laravel documentation](https://laravel.com/docs/database#configuration) 
+Clone the repository:
+
+```shell
+    git clone https://github.com/marcim/html2md.git
+```
+
+Navigate to root folder and install the PHP dependencies:
+
+```shell
+    cd html2md && composer install
+```
+
+Create `.env` file copying `.env.example`. Open the new `.env` file and replace dumb values with your's database configuration. See more at [Laravel documentation](https://laravel.com/docs/database#configuration) 
+
+```shell
+    cp .env.example .env
+    vim .env
+```
 
 
 ### Use
